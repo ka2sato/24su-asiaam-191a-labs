@@ -49,7 +49,7 @@ main {
     grid-area: portfolio; /* Assigns the portfolio section to its grid area */
 }
 
-#map { 
+map { 
     grid-area: map; /* Assigns the map section to its grid area */
     height: 80vh; /* Sets the map's height to 80% of the viewport height */
 }
