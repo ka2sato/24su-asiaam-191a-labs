@@ -43,15 +43,19 @@ header {
 
 main { 
     grid-area: main; /* Assigns the main content to its grid area */
+    
 }
 
 .portfolio {
     grid-area: portfolio; /* Assigns the portfolio section to its grid area */
+    max-width: 200px;
+    max-height: 200px;
 }
 
 map { 
     grid-area: map; /* Assigns the map section to its grid area */
     height: 80vh; /* Sets the map's height to 80% of the viewport height */
+ 
 }
 
 footer { 
